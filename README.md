@@ -1,9 +1,7 @@
 # sketch2nike
-pix2pix implementation using Keras specifically trained using Nike shoe images.
+Imagine being able to sketch a design of a Nike shoe (or any design) and being able to generate infinite possibilities for what the final product will look like. This is the potential power of generative adversarial networks. 
 
-Imagine being able to sketch a design of a Nike shoe (or any design work) and being able to generate infinite possibilities for what the final product will look like. This is the potential power of generative adversarial networks. 
-
-View the final poster for more details.
+This repository contains a pix2pix implementation based off of work by Phillip Isola et al. using Keras specifically trained using Nike shoe images. 
 
 # Contents
 data_extractor.ipynb - Hacky scripts for preprocessing data. In the case of sketch2nike, this consists of extracting the Nike Athletic Shoe images from the Zappos50k dataset and saving the images in the appropriate folder.
